@@ -1,0 +1,59 @@
+html {
+  margin: 0 !important;
+}
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  background-color: #000000;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  color: antiquewhite;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  height: 125px;
+  background-color: black;
+}
+header div {
+  height: 115px;
+  flex-grow: 1;
+}
+header div img {
+  height: 80%;
+  padding: 20px 20px;
+}
+.menu {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+}
+.menu-main-container {
+  display: flex;
+  align-items: center;
+}
+.menu-main-container ul li a {
+  color: antiquewhite;
+}
+.menu li {
+  padding: 0px 10px;
+}
+footer {
+  margin: 20px 50px;
+}
+.entry-title {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  color: antiquewhite;
+}
+.wp-image-95 {
+  width: 20vw;
+}
